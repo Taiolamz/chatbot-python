@@ -1,0 +1,99 @@
+[
+  {
+    "tag": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "chatbot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "tag": "greeting",
+    "user_input": ["see you", "goodbye", "bye", "welldone", "excellent"],
+    "chatbot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "tag": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "chatbot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "chatbot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "chatbot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["how", "are", "you"],
+    "chatbot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["how", "much", "exercise", "today"],
+    "chatbot_response": "At least 30 minutes of moderate exercise for the day.",
+    "required_words": ["how", "much", "today"]
+  },
+  {
+    "tag": "question",
+    "user_input": [
+      "I",
+      "just",
+      "sat",
+      "on",
+      "my",
+      "sofa",
+      "watching",
+      "tv",
+      "all",
+      "day"
+    ],
+    "chatbot_response": "Thats too bad, you should walk around and stretch your nerve :)",
+    "required_words": ["just", "sat", "sofa", "watching", "tv", "all", "day"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["What", "exercise", "can", "I", "do", "today"],
+    "chatbot_response": "I will encourage you go for running today if you haven't in a long time.",
+    "required_words": ["what", "can", "do", "today"]
+  },
+  {
+    "tag": "question",
+    "user_input": ["What", "exercise", "burns", "the", "most", "calories"],
+    "chatbot_response": "I must say, it's running and you can also check the internet for its health benefit.",
+    "required_words": ["burns", "the", "most", "calories"]
+  },
+  {
+    "tag": "question",
+    "user_input": [
+      "I",
+      "do",
+      "not",
+      "like",
+      "running",
+      "do",
+      "you",
+      "recommend",
+      "any",
+      "other",
+      "exercise"
+    ],
+    "chatbot_response": "You should try cycling, especially if you haven't done so in a long time, else go for a long walk",
+    "required_words": [
+      "not",
+      "like",
+      "running",
+      "recommend",
+      "any",
+      "other",
+      "exercise"
+    ]
+  }
+]
