@@ -7,7 +7,19 @@
   },
   {
     "tag": "greeting",
-    "user_input": ["see you", "goodbye", "bye", "welldone", "excellent"],
+    "user_input": ["Thank", "you"],
+    "chatbot_response": "You are welcome",
+    "required_words": []
+  },
+  {
+    "tag": "greeting",
+    "user_input": ["Well", "done"],
+    "chatbot_response": "Thank you",
+    "required_words": []
+  },
+  {
+    "tag": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
     "chatbot_response": "See you later!",
     "required_words": []
   },

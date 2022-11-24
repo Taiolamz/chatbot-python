@@ -6,7 +6,7 @@ import random_response
 # To load the JSON data
 def load_json(document):
     with open(document) as chatbot_responses:
-        print("Bot is ready to help! :)")
+        print("Bot is here to help! :)")
         return json.load(chatbot_responses)
 
 
